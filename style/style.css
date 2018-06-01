@@ -1,0 +1,216 @@
+.container {
+  margin: 0px !important;
+  padding: 0px !important;
+  border: 1px gray solid;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14px;
+}
+
+.top_bar {
+  width: 100%;
+}
+
+.nav-tabs {
+  border: none !important;
+}
+
+.nav-tabs .nav-link.active {
+  border: none !important;
+}
+
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+  border: none !important;
+}
+
+.nav-div {
+  border-top: lightgray 1px solid;
+  background: #F4F5F7;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 14px;
+  padding-left: 20px;
+}
+
+.nav-tabs .nav-link {
+  color: 	gray;
+}
+
+.nav-tabs .active-link {
+  color: orange;
+}
+
+.nav-search {
+  display: inline;
+}
+
+.user-info {
+  display: inline;
+  float: right;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.user-info span {
+  color: gray;
+  text-transform: uppercase;
+  margin-right: 15px;
+}
+
+.footer img {
+  width: 100%;
+}
+
+.header-image-container img {
+  width: 100%;
+  height: 350px;
+}
+
+.header-image-container {
+  position: relative;
+  color: white;
+}
+
+.header-image-text {
+  width: 600px;
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.header-image-text h2 {
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-size: 38px;
+  letter-spacing: 4px;
+}
+.header-image-text p {
+  font-size: 14px;
+}
+.load-more-div {
+  text-align: center;
+  margin: 100px;
+  clear:both;
+}
+
+.btn-gray {
+  background-color: #6B869F;
+  color: white;
+  border-radius: 0 !important;
+  text-transform: uppercase;
+}
+
+.btn-load-more {
+  width: 30%;
+}
+
+.btn-scroll-to-top {
+  float: right;
+  padding: 5px !important;
+}
+
+.sort-by-div {
+  height: 125px;
+}
+
+.select-container {
+  width: 25%;
+  float: right;
+  margin: 25px;
+}
+
+.select-container label {
+  color: gray;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.select-container select {
+  -webkit-appearance: none;
+  border-radius: 0;
+  border: 1px gray solid;
+  -moz-appearance: none;
+  background-position: right 50%;
+  background-repeat: no-repeat;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAMCAYAAABSgIzaAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NDZFNDEwNjlGNzFEMTFFMkJEQ0VDRTM1N0RCMzMyMkIiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NDZFNDEwNkFGNzFEMTFFMkJEQ0VDRTM1N0RCMzMyMkIiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo0NkU0MTA2N0Y3MUQxMUUyQkRDRUNFMzU3REIzMzIyQiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo0NkU0MTA2OEY3MUQxMUUyQkRDRUNFMzU3REIzMzIyQiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PuGsgwQAAAA5SURBVHjaYvz//z8DOYCJgUxAf42MQIzTk0D/M+KzkRGPoQSdykiKJrBGpOhgJFYTWNEIiEeAAAMAzNENEOH+do8AAAAASUVORK5CYII=);
+  padding: .5em;
+  padding-right: 1.5em
+}
+
+.div-search-bar{
+  float: right;
+  margin-right: 30px;
+  position: relative;
+}
+
+.input-search-bar {
+  background: #F4F5F7 !important;
+  border-radius: 0 !important;
+}
+
+.search-icon {
+  position: absolute;
+  top: 5px;
+  right: 7px;
+  font-size: 15px;
+  z-index: 5;
+}
+
+
+.video-list-item {
+  height: 330px;
+  font-size: 12px;
+  position: relative;
+  border: none !important;
+}
+
+.video-list-item .thumbnail {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.video-list-item h6 {
+  font-size: 15px;
+    width: 85%;
+}
+
+.div-series-title {
+  font-style: italic;
+  margin-bottom: 5px;
+  color: gray;
+}
+
+.div-video-item-info {
+  position: relative;
+}
+
+.div-video-likes {
+  position: absolute;
+  top: 0;
+  right: 5px;
+}
+
+.btn-video-more-info {
+  font-size: 8px;
+  text-transform: uppercase;
+  color: gray;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.video-featured-signifier {
+  display: inline-block;
+  padding: 5px;
+  background: #3DCCCC;
+  color: white;
+  text-transform: lowercase;
+  position: absolute;
+  top:0;
+  left:0;
+  opacity: 0.9;
+}
+
+.video-thumbnail-container {
+  position: relative;
+}
